@@ -1,0 +1,37 @@
+Anti-Fascist License Draft 1.0
+Copyright (c) 2026 CarolineCutest
+Please note that this is not a free license as defined by the FSF, as this license has restrictions
+on the purposes and types of organizations that are allowed to use this software and derivitives of it.
+Definitions:
+A. "Hate group" is any organization, along with any chapters affiliated with said organization, that have been designated as such
+by the Southern Poverty Law Center.
+B. "Marginalized group" refers to any minority group in society that has been historically and/or currently discriminated against due
+to intrinsic traits common to members of said group.
+    Examples of marginalized groups:
+    People of color, including but not limited to Black people, Latine people, Asians, Indigenous Americans, Aboriginal Australians, 
+    or any other race or ethnicity that is a minority.
+    Women, and others who were assigned female at birth.
+    Religious minorities, including Jewish people and Muslims, which differ between regions.
+    Disabled people, including Autistic people, those with mobility needs, Deaf people, blind people, those with chronic illnesses, or
+    any other condition which restricts the ability of that person to participate equally in society without accommodations.
+    Queer people, including but not limited to: lesbians, gays, bisexuals, trans people, intersex people, asexuals, or anyone else
+    who falls under the LGBTQIA+ umbrella of identities.
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files
+(the "Software"),
+to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software,
+and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+1. The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+2. This software is not used by an entity that is a "hate group" as designated by the Southern Poverty Law Center.
+3. This software is not used by any entity that engages in the marginalization, persecution, or genocide of any marginalized group.
+4. This software may not be used by any entity that engages in the encouragement or facilitation of "therapies" known to be abusive,
+including but not limited to: LGBTQIA+ conversion therapy, ABA therapy, or any other therapy known to be linked to trauma in recipients.
+5. These restrictions are present for any person or organization who uses this software or a derivitive of this software.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE
+WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+Adapted from MIT License.
+
+License link : https://github.com/neurogt/anti-fascist-license/tree/main?tab=License-1-ov-file
+Known violators : ./known_violators.txt
