@@ -11,6 +11,7 @@ package:com.samsung.android.aremojieditor
 package:com.samsung.android.aremoji
 package:com.sec.android.mimage.photoretouching
 package:com.samsung.storyservice
+package:com.samsung.android.app.sketchbook
 META-----------------------------
 package:com.facebook.system
 package:com.facebook.services
