@@ -5,7 +5,8 @@ declare -a packageArray
 
 packageSubstring="package:"
 bloat=bloat.txt
-packageTemp=temp.txt
+packageTemp=packageTemp.txt
+scanTemp=scanTemp.txt
 
 #Verify if the device si connected
 adbDevices=$(adb devices | grep -w "device")
@@ -22,7 +23,7 @@ else
 
   while [ $option -le 0 ]; do
       echo "Do you want to :
-        1.debloat  
+        1.scan  
         2.reinstall bloats
         3.use a bloat list"
       read -p "Enter choice :" option_input
@@ -47,8 +48,22 @@ else
                 #Remove Substring
                 packageNoSubstring=${line/$packageSubstring/}
                 echo $packageNoSubstring
+                echo "$line" >> "$scanTemp"
             fi
     done < $packageTemp
+    echo "Do you want to generate a custom list?
+          Yes = list path
+          No = empty"
+    read -p "Path :" listCreationPath
+    if ! [[ $listCreationPath ]]; then
+        echo "No file was created"
+        continue
+    else
+     scanResult=$(cat $scanTemp) 
+     echo "$scanResult" >> "$listCreationPath"
+     echo "File created at $listCreationPath"
+    fi
+    rm $scanTemp
   elif [[ $option =~ ^[2]$ ]]; then
     echo "work in progress"
   elif [[ $option =~ ^[3]$ ]]; then
